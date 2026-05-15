@@ -112,7 +112,7 @@
   <div class="home-hero">
     <p class="hero-eyebrow">Engineering Portfolio</p>
     <h1 class="hero-title">Mechanical<br>Engineer &amp; <em>Builder</em></h1>
-    <p class="hero-bio">Mechanical Engineering student at USF, graduating May 2026 with a 3.5 GPA. I work across controls, robotics, embedded systems, and mechanical design — building projects from first-principles models through physical prototypes.</p>
+    <p class="hero-bio">Mechanical Engineering student at the University of South Florida (GPA 3.46, graduating May 2026), with hands-on experience in controls, robotics, mechanical design, and HVAC systems.</p>
     <div class="hero-tags">
       <span class="hero-tag">SolidWorks</span>
       <span class="hero-tag">MATLAB &amp; Simulink</span>
@@ -205,12 +205,12 @@
     </div>
     <div class="detail-section">
       <p class="detail-section-label">Overview</p>
-      <div class="detail-body"><p>This ongoing project involves the full-stack design and development of a two-wheeled self-balancing robot — from mathematical modeling through hardware integration. The goal is a robot that maintains stable upright balance in real time, responding dynamically to disturbances and surface changes.</p></div>
+      <div class="detail-body"><p>This project involves the full-stack design and development of a two-wheeled self-balancing robot — from mathematical modeling through hardware integration. The goal is a robot that maintains stable upright balance in real time, responding dynamically to disturbances and surface changes.</p></div>
     </div>
     <div class="detail-section">
       <p class="detail-section-label">Control System Design</p>
       <div class="detail-body">
-        <p>The robot uses a <strong>Linear Quadratic Regulator (LQR)</strong> as the primary stabilization strategy, supplemented by <strong>PID control</strong> for outer-loop position and heading management. The mathematical model was derived from first principles — linearizing the inverted pendulum equations of motion around the upright equilibrium point.</p>
+        <p>A <strong>Linear Quadratic Regulator (LQR)</strong> and <strong>PID control</strong> were used to control the robot and performance was compared. The mathematical model was derived from first principles — linearizing the inverted pendulum equations of motion around the upright equilibrium point.</p>
         <p>Stability simulations were performed in <strong>MATLAB and Simulink</strong> to tune the LQR weighting matrices and validate closed-loop response before committing to hardware. Step response, disturbance rejection, and robustness margins were all verified in simulation.</p>
       </div>
     </div>
@@ -223,7 +223,7 @@
     </div>
     <div class="detail-section">
       <p class="detail-section-label">Current Status</p>
-      <div class="detail-body"><p>Simulation phase complete. Hardware prototype assembly and hardware-in-the-loop testing are currently underway. Results will be updated as testing progresses.</p></div>
+      <div class="detail-body"><p>Simulation and controller evaluation completed. Comparative testing between PID and LQR control methods showed a marginal performance improvement with the LQR controller, primarily in stability and response smoothness. The limited difference in performance is likely due to the relatively simple dynamics of the system, where a well-tuned PID controller can already achieve near-optimal stabilization under nominal operating conditions.</p></div>
     </div>
   </div>
   <footer>Colin M. McBride &nbsp;·&nbsp; <a href="mailto:colin.m.mcbride@gmail.com">colin.m.mcbride@gmail.com</a></footer>
